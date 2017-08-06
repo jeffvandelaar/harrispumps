@@ -1,0 +1,5 @@
+BlogPost:
+  extensions:
+    - KBSlideshow
+KBSlide:
+  default_sort: 'SortOrder DESC'

@@ -1,0 +1,30 @@
+{
+	"name": "trainee-template",
+	"description": "A SilverStripe site",
+	"require": {
+		"php": ">=5.4",
+		"silverstripe/cms": "~3.3",
+		"silverstripe/framework": "~3.3",
+		"heyday/silverstripe-optimisedimage": "~2.2",
+		"silverstripe/html5": "~1.0",
+		"webfox/userforms": "~3.0",
+		"silverstripe/googlesitemaps": "~1.2",
+		"xplore/composerupdates": "~1.0",
+		"silverstripe/blog": "^2.4",
+		"webfox/silverstripe-helpers": "~1.7",
+		"silverstripe/redirectedurls": "~1.0",
+		"unclecheese/mock-dataobjects": "~1.0",
+		"sheadawson/silverstripe-linkable": "~1.2",
+		"undefinedoffset/sortablegridfield": "^0.6.9",
+		"silverstripe-australia/gridfieldextensions": "~1.2",
+		"colymba/gridfield-bulk-editing-tools": "~2.1",
+		"colymba/gridfield-gallery-theme": "~1.0",
+		"unclecheese/betterbuttons": "~1.2",
+		"sheadawson/quickaddnew": "~1.1",
+		"plasticstudio/ss-homepage-slider": "^1.0",
+		"silverstripe/selectupload": "*"
+	},
+	"config": {
+		"process-timeout": 600
+	}
+}

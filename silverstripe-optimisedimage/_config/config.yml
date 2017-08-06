@@ -1,0 +1,33 @@
+---
+Name: 'core'
+---
+ImageOptimiserService:
+  successStatuses:
+    - 0
+  availableCommands:
+    jpg:
+      jpegoptim: '%1$s/jpegoptim -p -m%3$d --strip-all %2$s'
+    png:
+      optipng: '%s/optipng %s'
+      pngcrush: '%s/pngcrush -rem gAMA -rem cHRM -rem iCCP -rem sRGB -ow %s'
+      advpng: '%s/advpng -z4 $Filename'
+      pngquant: '%s/pngquant -f --skip-if-larger --ext=".png" %s'
+    gif:
+      optipng: '%s/optipng %s'
+  enabledCommands:
+  binDirectory: '/usr/local/bin'
+  optimisingQuality: 80
+
+OptimisedGDBackend:
+  dependencies:
+    OptimiserService: '%$ImageOptimiserService'
+OptimisedImagickBackend:
+  dependencies:
+    OptimiserService: '%$ImageOptimiserService'
+
+---
+Name: 'resample'
+---
+ResampleImage:
+  max_x: 1024
+  max_y: 1024

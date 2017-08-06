@@ -1,0 +1,13 @@
+.cms .quickaddnew-field{
+	position: relative;
+}
+.cms .quickaddnew-button{
+	position: absolute;
+	top: 5px;
+	margin-left: 5px;
+}
+
+.quickaddnew-dialog{
+	max-height: 600px;
+	overflow: auto;
+}

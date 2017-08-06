@@ -1,0 +1,374 @@
+/* ==========================================================================
+   Heading Styling
+   ========================================================================== */
+h1 {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+  font-size: 2.6rem;
+  line-height: 3.5rem;
+  font-weight: 400;
+}
+
+.h1-text-center {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 0.5rem;
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+}
+.h2-white {
+  color: #fff;
+}
+.h2-white.h2-text-center {
+  text-align: center;
+}
+.h2-white.h2-text-center.h2-text-uppercase {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+
+h3 {
+  margin-top: 0px;
+  margin-bottom: 0.5rem;
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+  font-size: 1.75rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+}
+.h3-white {
+  color: #fff;
+}
+
+h4 {
+  margin-top: 0px;
+  margin-bottom: 0.5rem;
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 400;
+}
+.h4-white {
+  color: #fff;
+}
+
+h5 {
+  margin-top: 0px;
+  margin-bottom: 0.5rem;
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 400;
+}
+.h5-link {
+  color: #e8171e;
+  text-decoration: none;
+}
+
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+  font-size: 1rem;
+  line-height: 1.45rem;
+  font-weight: 400;
+}
+
+/* ==========================================================================
+   Typography Misc
+   ========================================================================== */
+.text-center {
+  text-align: center;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-right {
+  text-align: right;
+}
+.text-block {
+  display: inline-block;
+}
+.content-center {
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  right: 0px;
+  -webkit-transform: translate(0px, -50%);
+  -ms-transform: translate(0px, -50%);
+  transform: translate(0px, -50%);
+}
+.hr, hr {
+  height: 1px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #e8171e;    
+  border: none;
+}
+
+.hr.hr-bottom-margin {
+  margin-top: 0px;
+}
+
+.hr.hr-thick {
+  height: 6px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: rgba(0, 0, 0, .16);
+}
+.text-area {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+}
+
+.text-area.text-area-lrg {
+  min-height: 200px;
+}
+
+/* ==========================================================================
+   Paragraph Styling
+   ========================================================================== */
+p {    
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+  font-size: 1rem;
+  line-height: 1.65rem;
+  font-weight: 400;
+  text-align: left;
+}
+p a {
+    color: #e8171e;
+    text-decoration: none;
+}
+
+.p-wrapper {
+  margin-bottom: 16px;
+}
+.p-white, .p-white p {
+  color: #fff;
+}
+.p-white.p-small {
+  font-size: 0.8rem;
+  line-height: 1.45rem;
+}
+.p-white.p-text-right {
+  text-align: right;
+}
+.p-link-white {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #fff;
+  -webkit-transition: color 500ms ease;
+  transition: color 500ms ease;
+  color: #fff;
+  text-decoration: none;
+}
+.p-link-white:hover {
+  border-bottom-color: #e8171e;
+}
+.p-link-red {
+  color: #e8171e;
+  text-decoration: none;
+}
+.p-small {
+  font-size: 0.8rem;
+  line-height: 1.35rem;
+}
+
+/* ==========================================================================
+   Icon Styling
+   ========================================================================== */
+.fa {
+  display: inline-block;    font-family: FontAwesome;
+}
+
+.fa.fa-angle-down.fa-lg {
+  width: 30px;
+  height: 16px;
+}
+
+.fa.fa-chevron-circle-down {
+  width: 30px;
+  height: 24px;
+}
+
+.fa.fa-file-pdf-o {
+  color: #e8171e;
+      font-family: FontAwesome;
+}
+
+.fa.fa-plus {
+  width: 30px;
+  height: 24px;
+  font-size: 0.8rem;
+}
+
+/* ==========================================================================
+   Form styling
+   ========================================================================== */
+form input, form textarea {
+    display: block;
+    width: 100%;
+  margin-bottom: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  height: 38px;
+    padding: 8px 12px;
+    color: #333333;
+    vertical-align: middle;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+.input:focus, .select:focus {
+    border-color: #3898EC;
+    outline: 0;
+}
+
+.text-field.text-field-search {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 0px;
+  float: none;
+  border-top: 0px none transparent;
+  border-right: 0px none transparent;
+  border-bottom: 0px none transparent;
+}
+
+.form {
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+}
+
+.form-wrapper {
+  margin-bottom: 15px;
+}
+
+.form-wrapper.form-wrapper-search {
+  display: block;
+  width: 83%;
+  margin-bottom: 0px;
+  float: left;
+}
+form label {
+  margin-bottom: 3px;
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  font-weight: 700;
+}
+
+.captcha {
+  display: inline-block;
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
+  padding-bottom: 0.5rem;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+/* ==========================================================================
+   Blockquote styling
+   ========================================================================== */
+blockquote {
+    margin: 0 0 10px 0;
+    padding: 10px 20px;
+    border-left: 5px solid #E2E2E2;
+    font-size: 18px;
+    line-height: 22px;
+}
+.blockquote-bg {
+  padding: 2rem 2.5rem 1rem;
+  background-color: #e8171e;
+}
+
+.blockquote-bg.img-text-bg-overlay {
+  background-color: rgba(232, 23, 30, .78);
+}
+
+.blockquote-bg.img-text-bg-blk {
+  background-color: #000;
+}
+
+.blockquote-bg.blockquote-bg-blk {
+  background-color: rgba(0, 0, 0, .61);
+}
+
+.blockquote-bg.blockquote-bg-faded {
+  background-color: rgba(0, 0, 0, .38);
+}
+
+.blockquote-bg.blockquote-bg-light {
+  background-color: #e3e3e3;
+}
+
+.blockquote-bg.blockquote-bg-gradient {
+  background-color: transparent;
+  background-image: -webkit-linear-gradient(0deg, rgba(0, 0, 0, .26), transparent);
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, .26), transparent);
+}
+
+.blockquote-bg.blockquote-no-bg {
+  background-color: transparent;
+}
+.blockquote-wrapper {
+  padding: 30px 30px 30px 20px;
+}
+.blockquote-wrapper-left {
+  padding: 30px 20px 30px 30px;
+}
+.blockquote {
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  border-left-color: rgba(0, 0, 0, .1);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.25rem;
+  line-height: 2.05rem;
+  font-weight: 400;
+  text-align: left;
+}
+
+.blockquote.blockquote-red {
+  border-left-color: #f3f3f3;
+  color: #f3f3f3;
+}
+
+.blockquote-footer {
+  font-size: 1rem;
+}
+
+.blockquote-link {
+  color: #f3f3f3;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.blockquote-link.blockquote-link-light {
+  color: #999;
+}
+blockquote p {
+    font-size: inherit;
+    color: inherit;
+    line-height: inherit;
+    font-weight: inherit;
+    font-family: inherit;
+    margin-bottom: inherit;    
+    margin-top: 0;
+}

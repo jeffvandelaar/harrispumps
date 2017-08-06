@@ -1,0 +1,30 @@
+---
+Name: silverstripe-helpers
+---
+DataList:
+  extensions:
+    - DataListExtension
+
+ArrayList:
+  extensions:
+    - DataListExtension
+
+SiteTree:
+  extensions:
+    - ExtraPageFieldsExtension
+
+SiteConfig:
+  extensions:
+    - WebFoxSiteConfig
+
+Image:
+  extensions:
+    - ImageExtension
+
+Link:
+  extensions:
+    - LinkExtension
+
+#SiteTree:
+#  extensions:
+#    - FooterMenuExtension

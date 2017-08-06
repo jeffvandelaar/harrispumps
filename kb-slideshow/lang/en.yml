@@ -1,0 +1,20 @@
+en:
+  KBSlideshow:
+    SINGULARNAME: 'Slideshow'
+    PLURALNAME: 'Slideshows'
+    Title: 'Title'
+    Text: 'Text'
+    Image: 'Image'
+    Width: 'Image rescale width'
+    WidthHelp: '(Optional) Images will be rescaled to set width'
+    Height: 'Image rescale height'
+    HeightHelp: '(Optional) Images will be rescaled to set height'
+    SortOrder: 'Sort order'
+    SortOrderHelpr: 'A higher number bumps slide up'
+  KBSlide:
+    SINGULARNAME: 'Slide'
+    PLURALNAME: 'Slides'
+    NoImageExists: '(no image)'
+    NoTitleExists: '(no title)'
+    NoTextExists: '(no text)'
+    ImageHelp: 'Upload an image that will represent this slide'

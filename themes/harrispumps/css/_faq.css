@@ -1,0 +1,130 @@
+/* ==========================================================================
+   FAQ Styling
+   ========================================================================== */
+.accordian {
+  position: relative;
+  margin-bottom: 4px;
+}
+
+.accordian-link-block {
+  display: block;
+  padding: 12px 40px 12px 0px;
+  border-bottom: 1px dashed rgba(0, 0, 0, .2);
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  background-color: #fff;
+  -webkit-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+  font-family: 'Open Sans', sans-serif;
+  color: #e8171e;
+  font-size: 1.25rem;
+  line-height: 2.05rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.accordian-link-block:hover {
+  background-color: transparent;
+}
+
+.accordian-link-block:focus {
+  background-color: transparent;
+}
+
+.hidden-faq {
+  position: relative;
+  overflow: hidden;
+}
+
+.accordian-info-wrapper {
+  padding: 1.25rem 2.5rem;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  background-color: #f3f3f3;
+}
+
+.caret {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  display: inline-block;
+  width: 30px;
+  height: 26px;
+  float: right;
+  text-align: right;
+}
+
+.faq {
+  padding: 30px 4rem;
+}
+
+.hidden-faq-2 {
+  position: relative;
+  overflow: hidden;
+}
+
+.hidden-faq-3 {
+  position: relative;
+  overflow: hidden;
+}
+
+.hidden-faq-4 {
+  position: relative;
+  overflow: hidden;
+}
+
+.hidden-faq-5 {
+  position: relative;
+  overflow: hidden;
+}
+
+.hidden-faq-6 {
+  position: relative;
+  overflow: hidden;
+}
+
+.hidden-faq-7 {
+  position: relative;
+  overflow: hidden;
+}
+
+.panel-default {
+    border: none;    
+    margin-bottom: 0;
+}
+
+.panel-body {
+    background-color: #f3f3f3;
+    padding: 2.3rem 3rem;
+}
+
+.panel-title > a {
+    display: block;
+    transition: background-color 500ms ease;
+    font-family: 'Open Sans', sans-serif;
+    color: #e8171e;
+    font-size: 1.2rem;
+    line-height: 2.05rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.panel-default>.panel-heading {
+    color: #e8171e;
+    border-bottom: 1px dashed rgba(0, 0, 0, .2);
+    padding-left: 0px;
+}
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color: transparent;
+}
+
+h4.panel-title a:before {
+    content: "\2b";
+    padding-top: 4px;
+    color: #e8171e;
+    font-family: 'Glyphicons Halflings';
+    font-size: 1em;
+    font-weight: bold;
+    float: right;
+}

@@ -1,0 +1,113 @@
+/*! Author     : colymba / colymba.com / Thierry Francois
+*/
+.cms .cms-edit-form table.ss-gridfield-table.galleryTheme {
+  background-color: #fff;
+  /* tbody.ss-gridfield-items */ }
+  .cms .cms-edit-form table.ss-gridfield-table.galleryTheme tbody.ss-gridfield-items {
+    float: left;
+    width: 100%;
+    background: none;
+    /* tr.ss-gridfield-item */ }
+    .cms .cms-edit-form table.ss-gridfield-table.galleryTheme tbody.ss-gridfield-items tr.ss-gridfield-item {
+      position: relative;
+      float: left;
+      display: inline-block;
+      width: 150px;
+      height: 150px;
+      margin: 5px;
+      border: none;
+      background-color: #fff;
+      /* td */ }
+      .cms .cms-edit-form table.ss-gridfield-table.galleryTheme tbody.ss-gridfield-items tr.ss-gridfield-item:even {
+        background-color: #fff; }
+      .cms .cms-edit-form table.ss-gridfield-table.galleryTheme tbody.ss-gridfield-items tr.ss-gridfield-item td {
+        display: none;
+        padding: 0;
+        /* &.galleryThumbnail */
+        /* &.col-buttons */ }
+        .cms .cms-edit-form table.ss-gridfield-table.galleryTheme tbody.ss-gridfield-items tr.ss-gridfield-item td.galleryThumbnail {
+          float: left;
+          display: block;
+          width: 140px;
+          height: 140px;
+          line-height: 140px;
+          text-align: center;
+          padding: 5px;
+          border: 1px solid #ccc; }
+          .cms .cms-edit-form table.ss-gridfield-table.galleryTheme tbody.ss-gridfield-items tr.ss-gridfield-item td.galleryThumbnail img {
+            float: left;
+            max-width: 100%;
+            height: auto; }
+          .cms .cms-edit-form table.ss-gridfield-table.galleryTheme tbody.ss-gridfield-items tr.ss-gridfield-item td.galleryThumbnail.icon img {
+            display: block;
+            float: none;
+            margin: 0 auto; }
+        .cms .cms-edit-form table.ss-gridfield-table.galleryTheme tbody.ss-gridfield-items tr.ss-gridfield-item td.col-buttons {
+          float: left;
+          position: absolute;
+          display: none;
+          top: 0;
+          left: 0;
+          z-index: 10;
+          width: 150px;
+          height: 150px;
+          text-align: center;
+          line-height: 150px;
+          border: none;
+          background-color: rgba(255, 255, 255, 0.9);
+          border: 1px solid #ccc; }
+        .cms .cms-edit-form table.ss-gridfield-table.galleryTheme tbody.ss-gridfield-items tr.ss-gridfield-item td.col-bulkSelect {
+          float: left;
+          position: absolute;
+          display: none;
+          bottom: 3px;
+          left: 7px;
+          z-index: 20;
+          width: 18px;
+          height: 18px;
+          text-align: center;
+          line-height: 0;
+          border: none;
+          background: none; }
+          .cms .cms-edit-form table.ss-gridfield-table.galleryTheme tbody.ss-gridfield-items tr.ss-gridfield-item td.col-bulkSelect.selected {
+            display: block; }
+      .cms .cms-edit-form table.ss-gridfield-table.galleryTheme tbody.ss-gridfield-items tr.ss-gridfield-item:hover td.col-buttons,
+      .cms .cms-edit-form table.ss-gridfield-table.galleryTheme tbody.ss-gridfield-items tr.ss-gridfield-item:hover td.col-bulkSelect {
+        display: block; }
+  .cms .cms-edit-form table.ss-gridfield-table.galleryTheme.dragSorting td.col-buttons {
+    display: none !important; }
+
+/* .cms table.ss-gridfield-table */
+body #galleryToolTip {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 200px;
+  padding: 5px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5); }
+  body #galleryToolTip p {
+    margin: 0; }
+  body #galleryToolTip:after, body #galleryToolTip:before {
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none; }
+  body #galleryToolTip:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-bottom-color: #ffffff;
+    border-width: 10px;
+    margin-left: -10px; }
+  body #galleryToolTip:before {
+    border-color: rgba(204, 204, 204, 0);
+    border-bottom-color: #ccc;
+    border-width: 11px;
+    margin-left: -11px; }

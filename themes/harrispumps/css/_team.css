@@ -1,0 +1,56 @@
+/* ==========================================================================
+   Team Page Styling
+   ========================================================================== */
+.team-heading {
+  padding: 1rem 20px 0.1rem;
+  background-color: #333;
+}
+
+.team-full-width-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+@media (min-width:1030px) {
+	.col-sm-12.teammembers {
+		display: flex;
+	    flex-wrap: wrap;
+	}
+	article.productlist {
+	    display: flex;
+	    flex-wrap: wrap;
+	}
+	.team-4col-flex {
+	  flex: 0 0 calc(25% - 20px);
+	}
+}
+@media (max-width:1029px) and (min-width:480px) {
+	.col-sm-12.teammembers {
+		display: flex;
+	    flex-wrap: wrap;
+	}
+	article.productlist {
+	    display: flex;
+	    flex-wrap: wrap;
+	}
+	.team-4col-flex {
+	  flex: 0 0 calc(50% - 20px);
+	}
+}
+.team-4col-flex {
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	padding-right: 0px;
+	padding-left: 0px;
+	border-bottom: 4px solid #e8171e;
+	background-color: #fff;
+}
+.team-member-info-wrapper {
+  padding: 30px;
+  background-color: transparent;
+}

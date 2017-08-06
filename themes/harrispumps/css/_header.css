@@ -1,0 +1,355 @@
+/* ==========================================================================
+   Header, Navigation and Search Styling
+   ========================================================================== */
+.navbar {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  margin-top: 0px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-top: 0px;
+  background-color: transparent;
+}
+
+.brand {
+  z-index: 10;
+  width: 206px;
+  margin-top: 10px;
+  background-color: #e8171e;
+}
+
+.nav-link {
+  display: inline-block;
+  float: none;
+  -webkit-transition: color 500ms ease;
+  transition: color 500ms ease;
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+  font-size: 0.8rem;
+  line-height: 1.05rem;
+  text-align: left;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  color: #e8171e;
+}
+
+.nav-menu {
+  position: absolute;
+  left: 205px;
+  top: 80px;
+  display: block;
+  width: 100%;
+  margin-top: 0px;
+  padding-top: 10px;
+  float: none;
+  background-color: #fff;
+  text-align: left;
+}
+.search-wrapper {
+  position: absolute;
+  top: 0px;
+  right: 70px;
+  display: block;
+  width: 33%;
+  margin-top: 17px;
+  float: none;
+  text-align: right;
+}
+.search-link {
+  width: 30px;
+  margin-top: 5px;
+  margin-right: 20px;
+  float: right;
+    position: relative;
+}
+.menu-button {
+  margin-top: 10px;
+  padding: 27px 26px;
+  float: left;
+}
+
+.menu-button.w--open {
+  background-color: #fff;
+  color: #e8171e;
+}
+
+.nav-menu-bg {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  height: 80px;
+  background-color: #fff;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.menu-text {
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+  font-size: 0.8rem;
+  line-height: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.nav-link-dropdown {
+  margin-left: 0px;
+}
+
+.navbar-wrapper {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  z-index: 999;
+  display: block;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: transparent;
+}
+
+.brand-link {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1000;
+  width: 217px;
+  float: none;
+}
+
+.navbar-bg {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  z-index: 999;
+  height: 82px;
+  background-color: #fff;
+}
+
+.menu-btn {
+  padding: 27px 30px;
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+  font-size: 0.8rem;
+  line-height: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.menu-btn:hover {
+  color: #e8171e;
+}
+
+.menu-btn.menu-btn-mobile {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: none;
+  width: 70px;
+  height: 70px;
+  padding: 26px;
+  background-color: #000;
+}
+
+.menu-wrapper {
+  display: block;
+  margin-left: 0px;
+  background-color: #fff;
+  z-index: 1000;
+}
+@media and (min-width:480px) {
+
+	.menu-wrapper {
+	    position: relative;
+	}
+	
+}
+
+.hidden-navbar {
+  position: relative;
+  display: none;
+  overflow: hidden;
+  margin-top: 70px;
+  padding: 0px 30px 40px;
+  border-top: 1px solid rgba(0, 0, 0, .2);
+  background-color: #000;
+}
+
+.navbar-link {
+  display: block;
+  padding: 2px 30px 2px 0px;
+  background-color: #000;
+  -webkit-transition: background-color 500ms ease, color 500ms ease;
+  transition: background-color 500ms ease, color 500ms ease;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 0.9rem;
+  line-height: 1.35rem;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.navbar-link:hover {
+  background-color: #000;
+  color: #e8171e;
+}
+
+.dropdown-icon {
+  display: inline-block;
+  float: right;
+}
+.navbar-link-dropdown {
+  position: relative;
+  display: block;
+  padding: 26px 30px 10px 0px;
+  border-bottom: 1px solid #e8171e;
+  background-color: #000;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.navbar-link-dropdown:hover {
+  color: #e8171e;
+}
+
+.hidden-dropdown-1 {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin-bottom: 0px;
+}
+
+.hidden-dropdown-2 {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 0px;
+}
+
+.hidden-dropdown-3 {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 0px;
+}
+
+.hidden-dropdown-4 {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 0px;
+}
+.burger-menu {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 72px;
+  height: 72px;
+  padding: 26px;
+  float: none;
+  background-color: #000;
+  text-align: right;
+}
+
+.burger-full-menu {
+  display: block;
+  height: 68vh;
+  padding: 33px 40px 45px;
+  background-color: transparent;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+}
+
+.burger-menu-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.menu-flex {
+  padding: 20px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.menu-heading {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 22px;
+}
+
+.menu-links {
+  display: block;
+  padding-top: 14px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-top: 1px solid #e8171e;
+}
+
+.menu-link {
+  display: block;
+  margin-bottom: 0px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  -webkit-transition: color 500ms ease;
+  transition: color 500ms ease;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 0.9rem;
+  line-height: 1.35rem;
+  text-decoration: none;
+}
+
+.menu-link:hover {
+  color: #e8171e;
+}
+
+.menu-heading-bg {
+  margin-bottom: 30px;
+}
+
+.hidden-menu-desktop {
+  position: relative;
+  z-index: 1000;
+  display: block;
+  overflow: hidden;
+  height: auto;
+  margin-top: 70px;
+  background-color: rgba(0, 0, 0, .8);
+}
+
+.mobile-search {
+  display: none;
+}
+
+.search-form-dropdown {
+  display: none;
+}
